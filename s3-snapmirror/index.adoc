@@ -59,7 +59,7 @@ For S3 SnapMirror to target 3rd party object stores (AWS S3).
 *** You can use a self-signed CA certificate or a certificate signed by an external CA vendor.
 *** If the source or destination storage VMs are not listening on HTTPS, it is not necessary to install CA certificates.
 * Peering (for ONTAP S3 targets)
-** Intercluster LIFs must be configured (for remote ONTAP targets).
+** Intercluster LIFs must be configured (for all ONTAP targets).
 ** Source and destination clusters are peered (for remote ONTAP targets).
 ** Source and destination storage VMs are peered (for all ONTAP targets).
 * SnapMirror policy
